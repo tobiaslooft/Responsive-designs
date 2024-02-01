@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beskrivning av din webbplats">
+    <meta name="keywords" content="nyckelord, för, din, webbplats">
+    <meta name="author" content="Ditt namn">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Responsive Design-Patagonia</title>
+</head>
+
+<body>
+
+    <div class="container_logo desktop">
+        <div class="logo__">
+            <img src="styles/images/Logo.png" class="logo_1" alt="Logo_Patagonia">
+        </div>
+        <nav class="navbar menu_default">
+            <ul class="links">
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar menu_alternative">
+            <ul class="links">
+                <li><a href="#">works</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar menu_dropdown">
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">works</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contacts</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container_text">
+        <h1 class="rubrik">Patagonia</h1>
+        <p class="Text_brodtext">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend
+            lacus, vitae ullamcorper ligula.
+        </p>
+    </div>
+
+    <div class="container_image">
+        <picture class="bilder">
+            <source media="(max-width: 320px)" srcset="styles/images/bild_phone.jpg" alt="Phone Image">
+            <source media="(max-width: 768px)" srcset="styles/images/bild_tablet.png" alt="Tablet Image">
+            <img src="styles/images/bild_desktop.png" alt="Desktop Image">
+        </picture>
+    </div>
+
+</body>
+
+</html>
